@@ -1,0 +1,16 @@
+# sistema / python
+.DS_Store
+__pycache__/
+*.pyc
+venv/
+
+# anotações pessoais (IP e usuário do console de teste)
+NOTAS-DO-PROJETO.md
+
+# skin de terceiros usada no build: baixe a Clean NXE 2.0.1 BETA (Jayshai) e coloque aqui
+tools/base/CleanNXE-*.xzp
+
+# resultados intermediários dos experimentos e cópias de arquivos do console
+tools/experimentos/**/*.xzp
+tools/experimentos/fundos-gerados/backup-fundos-vazios/
+tools/experimentos/relogio-na-home/Main.lua.original-casa

@@ -1,0 +1,33 @@
+<XUIClassExtension version="0001">
+  <!-- classes do Aurora deduzidas pelos bytes das skins (não constam do XUIHelper) -->
+  <!-- texto rolante: deriva direto de XuiElement; 5 = int, 6 = bool, 9 = float (7 e 8 nunca vistos) -->
+  <XUIClass Name="XuiMarqueePresenter" BaseClassName="XuiElement">
+    <PropDef Name="TextColor" Type="color"></PropDef>
+    <PropDef Name="DropShadowColor" Type="color"></PropDef>
+    <PropDef Name="PointSize" Type="float"></PropDef>
+    <PropDef Name="Font" Type="string"></PropDef>
+    <PropDef Name="TextStyle" Type="unsigned"></PropDef>
+    <PropDef Name="Unknown5" Type="integer"></PropDef>
+    <PropDef Name="Unknown6" Type="bool"></PropDef>
+    <PropDef Name="Unknown7" Type="unsigned"></PropDef>
+    <PropDef Name="Unknown8" Type="unsigned"></PropDef>
+    <PropDef Name="Unknown9" Type="float"></PropDef>
+  </XUIClass>
+  <XUIClass Name="XuiAnimEvent" BaseClassName="XuiElement">
+    <PropDef Name="EventValue" Type="unsigned"></PropDef>
+  </XUIClass>
+  <XUIClass Name="XuiEffect" BaseClassName="XuiElement">
+    <PropDef Name="Source" Type="string"></PropDef>
+  </XUIClass>
+  <XUIClass Name="XuiHVBlurEffect" BaseClassName="XuiEffect">
+    <PropDef Name="Unknown0" Type="float"></PropDef>
+    <PropDef Name="Amount" Type="float"></PropDef>
+  </XUIClass>
+  <!-- avatar do perfil: 2 = bool, 3 = unsigned (0 e 1 nunca vistos) -->
+  <XUIClass Name="XuiAvatarPresenter" BaseClassName="XuiElement">
+    <PropDef Name="Unknown0" Type="unsigned"></PropDef>
+    <PropDef Name="Unknown1" Type="unsigned"></PropDef>
+    <PropDef Name="Unknown2" Type="bool"></PropDef>
+    <PropDef Name="Unknown3" Type="unsigned"></PropDef>
+  </XUIClass>
+</XUIClassExtension>

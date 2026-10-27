@@ -1,0 +1,21 @@
+﻿<XUIClassExtension version="0001">
+  <XUIClass Name="DashData" BaseClassName="ScriptData">
+  </XUIClass>
+  <XUIClass Name="VideoData" BaseClassName="DashData">
+  </XUIClass>
+  <XUIClass Name="LiveData" BaseClassName="DashData">
+  </XUIClass>
+  <XUIClass Name="MediaData" BaseClassName="DashData">
+  </XUIClass>
+  <XUIClass Name="AuraControl" BaseClassName="XuiElement" DefaultWidth="64" DefaultHeight="64" Description="Aura Control">
+    <PropDef Name="ThemeImageIndex" Type="unsigned">
+      <DefaultVal>0</DefaultVal>
+    </PropDef>
+    <PropDef Name="BackgroundImage" Type="string">
+      <DefaultVal></DefaultVal>
+    </PropDef>
+    <PropDef Name="SurfaceSphere" Type="bool">
+      <DefaultVal>false</DefaultVal>
+    </PropDef>
+  </XUIClass>
+</XUIClassExtension>
